@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "Chrome-OSS",
+    "version": "1.0",
+    "description": "一个阿里云OSS的Chrome扩展，可以直接在浏览器上上传或查看OSS文件，可以右键保存图片到OSS",
+    "permissions": [
+        "https://secure.flickr.com/"
+    ],
+    "browser_action": {
+        "default_icon": "static/icon.png",
+        "default_popup": "static/popup.html"
+    }
+}
